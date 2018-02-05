@@ -8,7 +8,7 @@ div.visual{
 }
 div.info{
     position: relative;
-    height: 160px;
+    height: 200px;
     width: 1200px;
     padding: 10px;
     margin-left: 50px;}
@@ -40,7 +40,7 @@ div.codes{
     top: 0;
     left: 470px;
     width: 300px;
-    height: 150px;
+    height: 180px;
     padding-left: 10px;
     border: 1px solid hsl(0, 0%, 71%);
     outline: thick ridge pink;
