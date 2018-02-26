@@ -1,5 +1,5 @@
 h5.center-align{
-    margin-left: 50px;
+    margin-left: 40px;
 }
 div.visual{
    position: relative;
@@ -9,9 +9,9 @@ div.visual{
 div.info{
     position: relative;
     height: 160px;
-    width: 1200px;
+    width: 1800px;
     padding: 10px;
-    margin-left: 50px;}
+    margin: 10px;}
 div.submits{
     background-color: hsl(0, 0%, 94%);
     position: absolute;
@@ -45,9 +45,20 @@ div.codes{
     border: 1px solid hsl(0, 0%, 71%);
     outline: thick ridge pink;
 }
+div.Ref{
+    background-color: hsl(0, 0%, 94%);
+    position: absolute;
+    top: 0;
+    left: 780px;
+    width: 300px;
+    height: 150px;
+    padding-left: 10px;
+    border: 1px solid hsl(0, 0%, 71%);
+    outline: thick ridge pink;
+}
 div.end{
     position: relative;
     margin: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
