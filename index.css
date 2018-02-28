@@ -1,4 +1,4 @@
-h5.center-align{
+p.center-align{
     margin-left: 40px;
 }
 div.visual{
@@ -21,40 +21,40 @@ div.submits{
     height: 150px;
     padding-left: 10px;
     border: 1px solid hsl(0, 0%, 71%);
-    outline: thick ridge pink;
+   
 }
 div.sources{
     background-color: hsl(0, 0%, 94%);
     position: absolute;
     top: 0;
-    left: 163px;
+    left: 150px;
     width: 300px;
     height: 150px;
     padding-left: 5px;
     border: 1px solid hsl(0, 0%, 71%);
-    outline: thick ridge pink;
+   
 }
 div.codes{
     background-color: hsl(0, 0%, 94%);
     position: absolute;
     top: 0;
-    left: 470px;
+    left: 450px;
     width: 300px;
     height: 150px;
     padding-left: 10px;
     border: 1px solid hsl(0, 0%, 71%);
-    outline: thick ridge pink;
+    
 }
 div.Ref{
     background-color: hsl(0, 0%, 94%);
     position: absolute;
     top: 0;
-    left: 780px;
+    left: 750px;
     width: 300px;
     height: 150px;
     padding-left: 10px;
     border: 1px solid hsl(0, 0%, 71%);
-    outline: thick ridge pink;
+    
 }
 div.end{
     position: relative;
