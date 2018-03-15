@@ -1,0 +1,69 @@
+body {
+  font: 13px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+.dot {
+  stroke: None;
+}
+
+
+
+
+/*Add Tooltip Type here*/
+.tooltip {
+    position: absolute;				
+    width: 180px;					
+    height: 50px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -90px;
+    font: 12px Garamond;
+    //font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;	
+    border: 0px;		
+    border-radius: 5px;			
+    pointer-events: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center
+}
+
+.tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.tooltip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+/*Add Tooltip Type here*/
+
+/*Set style for grid*/
+.grid line {
+   stroke: lightgrey;
+   stroke-opacity: 0.7;
+   shape-rendering: crispEdges;
+}
+.grid path {
+   stroke-width: 0;
+}
