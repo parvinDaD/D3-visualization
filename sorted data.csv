@@ -25,10 +25,10 @@ year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
 2006,2004,"Frances E. ""Fran"" Allen",United States,CS,7,6.4,"""For pioneering contributions to the theory and practice of optimizing compiler techniques that laid the foundation for modern optimizing compilers and automatic parallel execution.""",Ken Kennedy,North America,0,0,0
 2008,2005,Barbara Liskov,United States,CS,7,6.4,"""For contributions to practical and theoretical foundations of programming language and system design, especially related to data abstraction, fault tolerance, and distributed computing.""",Turing,North America,1,1,0
 2009,2004,Francine Berman,United States,CS,7,6.6,"""For her influential leadership in the design, development and deployment of national-scale cyber infrastructure, her-inspiring work as a teacher and mentor, and her exemplary service to the high performance community. Äù",Ken Kennedy,North America,2,0,1
-2011,2014.5,Susan L. Graham,United States,CS,7,6.4,For foundational compilation algorithms and programming tools; research and discipline leadership; and exceptional mentoring.,Ken Kennedy,North America,0,0,0
-2012,2015.5,Shafi Goldwasser,United States,CS,7,6.4,"""For transformative work that laid the complexity-theoretic foundations for the science of cryptography and in the process pioneered new methods for efficient verification of mathematical proofs in complexity theory.""",Turing,North America,1,1,0
-2012,2014.5,Katherine Yelick,United States,CS,7,6.6,"""For advancing the programmability of HPC systems, strategic national leadership, and mentorship in academia and government labs.""",Ken Kennedy,North America,2,0,1
-2012,2015.5,Mary Lou Soffa,United States,CS,7,6.6,"""For contributions to compiler technology and software engineering, exemplary service to the profession, and life-long dedication to mentoring and improving diversity in computing.""",Ken Kennedy,North America,3,1,1
+2011,2014,Susan L. Graham,United States,CS,7,6.4,For foundational compilation algorithms and programming tools; research and discipline leadership; and exceptional mentoring.,Ken Kennedy,North America,0,0,0
+2012,2015,Shafi Goldwasser,United States,CS,7,6.4,"""For transformative work that laid the complexity-theoretic foundations for the science of cryptography and in the process pioneered new methods for efficient verification of mathematical proofs in complexity theory.""",Turing,North America,1,1,0
+2012,2014,Katherine Yelick,United States,CS,7,6.6,"""For advancing the programmability of HPC systems, strategic national leadership, and mentorship in academia and government labs.""",Ken Kennedy,North America,2,0,1
+2012,2015,Mary Lou Soffa,United States,CS,7,6.6,"""For contributions to compiler technology and software engineering, exemplary service to the profession, and life-long dedication to mentoring and improving diversity in computing.""",Ken Kennedy,North America,3,1,1
 2004,2004,Condoleezza Rice,United States,Leadership,8,7.3,"""American political scientist and diplomat.""",Times 100People,North America,0,0,0
 2004,2005,Luisa Diogo,Mozambique,Leadership,8,7.3,"""Prime Minister of Mozambique from February 2004 to January 2010.""",Times 100People,North America,1,1,0
 2004,2006,Wu Yi,China,Leadership,8,7.3,"""Vice Premier and Health Minister of China.""",Times 100People,Africa,2,2,0
@@ -64,117 +64,117 @@ year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
 1987,1985,Joan S. Birman,United States,Math,6,5.6,,Noether Lecture,North America,7,3,1
 1988,1986,Karen K. Uhlenbeck,United States,Math,6,5.6,,Noether Lecture,North America,8,4,1
 1989,1987,Mary F. Wheeler,United States,Math,6,5.6,,Noether Lecture,North America,9,5,1
-1990,1993,Bhama Srinivasan,India,Math,6,5.4,,Noether Lecture,Asia,0,1,0
-1991,1994,Alexandra Bellow,Romania,Math,6,5.4,,Noether Lecture,Europe,1,2,0
-1991,2014,Dusa McDuff,United States,Math,6,5.4,"""for her outstanding work during the past five years on symplectic geometry""",Ruth Lyttle Satter,North America,0,1,0
-1992,1995,Nancy Kopell,United States,Math,6,5.4,,Noether Lecture,North America,2,3,0
-1993,1996,Linda Keen,United States,Math,6,5.4,,Noether Lecture,North America,3,4,0
-1993,,Lai-Sang Young,United States,Math,6,,"""for her leading role in the investigation of the statistical (or ergodic) properties of dynamical systems""",Ruth Lyttle Satter,North America,1,,
-1994,1997,Lesley Sibner,United States,Math,6,5.4,,Noether Lecture,North America,4,5,0
-1995,1993,Judith D. Sally,United States,Math,6,5.6,,Noether Lecture,North America,5,1,1
-1995,,Sun-Yung Alice Chang ,United States,Math,6,,"""for her deep contributions to the study of partial differential equations on Riemannian manifolds and in particular for her work on extremal problems in spectral geometry and the compactness of isospectral metrics within a fixed conformal class on a compact 3-manifold""",Ruth Lyttle Satter,North America,2,,
-1996,1994,Olga Oleinik,Soviet,Math,6,5.6,,Noether Lecture,Europe,6,2,1
-1997,1995,Linda Preiss Rothschild,United States,Math,6,5.6,,Noether Lecture,North America,7,3,1
-1997,,Ingrid Daubechies,United States,Math,6,,"""for her deep and beautiful analysis of wavelets and their applications""",Ruth Lyttle Satter,North America,3,,
-1998,1996,Dusa McDuff,England,Math,6,5.6,,Noether Lecture,Europe,8,4,1
-1999,1997,Krystyna M. Kuperberg,Poland,Math,6,5.6,,Noether Lecture,Europe,9,5,1
-1999,,Bernadette Perrin-Riou,United States,Math,6,,"""for her number theoretical research on p-adic L-functions and Iwasawa theory""",Ruth Lyttle Satter,North America,4,,
-2000,2003,Margaret H. Wright,United States,Math,6,5.4,,Noether Lecture,North America,0,1,0
-2001,2004,Sun-Yung Alice Chang,Taiwan,Math,6,5.4,,Noether Lecture,Asia,1,2,0
-2001,,Karen E. Smith,United States,Math,6,,"""for her outstanding work in commutative algebra""",Ruth Lyttle Satter,North America,,,
-2001,,Sijue Wu,United States,Math,6,,"""for her work on a long-standing problem in the water wave equation""",Ruth Lyttle Satter,North America,,,
-2002,2005,Lenore Blum,United States,Math,6,5.4,,Noether Lecture,North America,2,3,0
-2003,2006,Jean Taylor,United States,Math,6,5.4,,Noether Lecture,North America,3,4,0
-2003,,Abigail Thompson ,United States,Math,6,,"""for her outstanding work in 3-dimensional topology""",Ruth Lyttle Satter,North America,,,
-2004,2007,Svetlana Katok,Russian-American,Math,6,5.4,,Noether Lecture,Europe,4,5,0
-2005,2003,Lai-Sang Young,China,Math,6,5.6,,Noether Lecture,Asia,5,1,1
-2005,,Svetlana Jitomirskaya,United States,Math,6,,"""for her pioneering work on non-perturbative quasiperiodic localization.""",Ruth Lyttle Satter,North America,,,
-2006,2004,Ingrid Daubechies, Belgian,Math,6,5.6,,Noether Lecture,Europe,6,2,1
-2007,2005,Karen Vogtmann,United States,Math,6,5.6,,Noether Lecture,North America,7,3,1
-2007,,Claire Voisin,United States,Math,6,,"""for her deep contributions to algebraic geometry, and in particular for her recent solutions to two long-standing open problems""",Ruth Lyttle Satter,North America,,,
-2008,2006,Audrey A. Terras,United States,Math,6,5.6,,Noether Lecture,North America,8,4,1
-2009,2007,Fan Chung Graham,"Taiwan, United States",Math,6,5.6,,Noether Lecture,Asia,9,5,1
-2009,,Laure Saint-Raymond,United States,Math,6,,"""for her fundamental work on the hydrodynamic limits of the Boltzmann equation in the kinetic theory of gases""",Ruth Lyttle Satter,North America,,,
-2010,2014,Carolyn S. Gordon,United States,Math,6,5.4,,Noether Lecture,North America,0,1,0
-2011,2015,Susan Montgomery,United States,Math,6,5.4,,Noether Lecture,North America,1,2,0
-2011,,Amie Wilkinson,United States,Math,6,,"""for her remarkable contributions to the field of ergodic theory of partially hyperbolic dynamical systems""",Ruth Lyttle Satter,North America,,,
-2012,2016,Barbara Keyfitz,Canada,Math,6,5.4,,Noether Lecture,North America,2,3,0
-2013,2017,Raman Parimala,Indian/American,Math,6,5.4,,Noether Lecture,Asia,3,4,0
-2013,,Maryam Mirzakhani,United States,Math,6,,"""for her deep contributions to the theory of moduli spaces of Riemann surfaces""",Ruth Lyttle Satter,North America,,,
-2014,2014,Georgia Benkart,United States,Math,6,5.6,,Noether Lecture,North America,4,1,1
-2015,2015,Wen-Ching Winnie Li,Chinese-American,Math,6,5.6,,Noether Lecture,Asia,5,2,1
-2015,,Hee Oh ,United States,Math,6,,"""for her fundamental contributions to the fields of dynamics on homogeneous spaces, discrete subgroups of Lie groups, and applications to number theory""",Ruth Lyttle Satter,North America,,,
-2016,2016,Karen E. Smith,United States,Math,6,5.6,,Noether Lecture,North America,6,3,1
-2017,2017,Lisa Jeffrey,Canada,Math,6,5.6,,Noether Lecture,North America,7,4,1
-2017,,Laura DeMarco,United States,Math,6,,"""for her fundamental contributions to complex dynamics, potential theory, and the emerging field of arithmetic dynamics""",Ruth Lyttle Satter,North America,,,
+1990,1993,Bhama Srinivasan,India,Math,6,5.3,,Noether Lecture,Asia,0,0,0
+1991,1994,Alexandra Bellow,Romania,Math,6,5.3,,Noether Lecture,Europe,1,1,0
+1991,1995,Dusa McDuff,United States,Math,6,5.3,"""for her outstanding work during the past five years on symplectic geometry""",Ruth Lyttle Satter,North America,2,2,0
+1992,1996,Nancy Kopell,United States,Math,6,5.3,,Noether Lecture,North America,3,3,0
+1993,1997,Linda Keen,United States,Math,6,5.3,,Noether Lecture,North America,4,4,0
+1993,1993,Lai-Sang Young,United States,Math,6,5.5,"""for her leading role in the investigation of the statistical (or ergodic) properties of dynamical systems""",Ruth Lyttle Satter,North America,5,0,1
+1994,1994,Lesley Sibner,United States,Math,6,5.5,,Noether Lecture,North America,6,1,1
+1995,1995,Judith D. Sally,United States,Math,6,5.5,,Noether Lecture,North America,7,2,1
+1995,1996,Sun-Yung Alice Chang ,United States,Math,6,5.5,"""for her deep contributions to the study of partial differential equations on Riemannian manifolds and in particular for her work on extremal problems in spectral geometry and the compactness of isospectral metrics within a fixed conformal class on a compact 3-manifold""",Ruth Lyttle Satter,North America,8,3,1
+1996,1997,Olga Oleinik,Soviet,Math,6,5.5,,Noether Lecture,Europe,9,4,1
+1997,1993,Linda Preiss Rothschild,United States,Math,6,5.7,,Noether Lecture,North America,10,0,2
+1997,1994,Ingrid Daubechies,United States,Math,6,5.7,"""for her deep and beautiful analysis of wavelets and their applications""",Ruth Lyttle Satter,North America,11,1,2
+1998,1995,Dusa McDuff,England,Math,6,5.7,,Noether Lecture,Europe,12,2,2
+1999,1996,Krystyna M. Kuperberg,Poland,Math,6,5.7,,Noether Lecture,Europe,13,3,2
+1999,1997,Bernadette Perrin-Riou,United States,Math,6,5.3,"""for her number theoretical research on p-adic L-functions and Iwasawa theory""",Ruth Lyttle Satter,North America,14,4,0
+2000,2003,Margaret H. Wright,United States,Math,6,5.2,,Noether Lecture,North America,0,0,0
+2001,2004,Sun-Yung Alice Chang,Taiwan,Math,6,5.2,,Noether Lecture,Asia,1,1,0
+2001,2005,Karen E. Smith,United States,Math,6,5.2,"""for her outstanding work in commutative algebra""",Ruth Lyttle Satter,North America,2,2,0
+2001,2006,Sijue Wu,United States,Math,6,5.2,"""for her work on a long-standing problem in the water wave equation""",Ruth Lyttle Satter,North America,3,3,0
+2002,2003,Lenore Blum,United States,Math,6,5.2,,Noether Lecture,North America,4,0,0
+2003,2004,Jean Taylor,United States,Math,6,5.4,,Noether Lecture,North America,5,1,1
+2003,2005,Abigail Thompson ,United States,Math,6,5.4,"""for her outstanding work in 3-dimensional topology""",Ruth Lyttle Satter,North America,6,2,1
+2004,2006,Svetlana Katok,Russian-American,Math,6,5.4,,Noether Lecture,Europe,7,3,1
+2005,2003,Lai-Sang Young,China,Math,6,5.4,,Noether Lecture,Asia,8,0,1
+2005,2004,Svetlana Jitomirskaya,United States,Math,6,5.4,"""for her pioneering work on non-perturbative quasiperiodic localization.""",Ruth Lyttle Satter,North America,9,1,1
+2006,2005,Ingrid Daubechies, Belgian,Math,6,5.6,,Noether Lecture,Europe,10,2,2
+2007,2006,Karen Vogtmann,United States,Math,6,5.6,,Noether Lecture,North America,11,3,2
+2007,2003,Claire Voisin,United States,Math,6,5.6,"""for her deep contributions to algebraic geometry, and in particular for her recent solutions to two long-standing open problems""",Ruth Lyttle Satter,North America,12,0,2
+2008,2004,Audrey A. Terras,United States,Math,6,5.6,,Noether Lecture,North America,13,1,2
+2009,2005,Fan Chung Graham,"Taiwan, United States",Math,6,5.6,,Noether Lecture,Asia,14,2,2
+2009,2003,Laure Saint-Raymond,United States,Math,6,5.8,"""for her fundamental work on the hydrodynamic limits of the Boltzmann equation in the kinetic theory of gases""",Ruth Lyttle Satter,North America,15,3,3
+2010,2013,Carolyn S. Gordon,United States,Math,6,5.3,,Noether Lecture,North America,0,0,0
+2011,2014,Susan Montgomery,United States,Math,6,5.3,,Noether Lecture,North America,1,1,0
+2011,2015,Amie Wilkinson,United States,Math,6,5.3,"""for her remarkable contributions to the field of ergodic theory of partially hyperbolic dynamical systems""",Ruth Lyttle Satter,North America,2,2,0
+2012,2016,Barbara Keyfitz,Canada,Math,6,5.3,,Noether Lecture,North America,3,3,0
+2013,2013,Raman Parimala,Indian/American,Math,6,5.5,,Noether Lecture,Asia,4,0,1
+2013,2014,Maryam Mirzakhani,United States,Math,6,5.5,"""for her deep contributions to the theory of moduli spaces of Riemann surfaces""",Ruth Lyttle Satter,North America,5,1,1
+2014,2015,Georgia Benkart,United States,Math,6,5.5,,Noether Lecture,North America,6,2,1
+2015,2016,Wen-Ching Winnie Li,Chinese-American,Math,6,5.5,,Noether Lecture,Asia,7,3,1
+2015,2013,Hee Oh ,United States,Math,6,5.7,"""for her fundamental contributions to the fields of dynamics on homogeneous spaces, discrete subgroups of Lie groups, and applications to number theory""",Ruth Lyttle Satter,North America,8,0,2
+2016,2014,Karen E. Smith,United States,Math,6,5.7,,Noether Lecture,North America,9,1,2
+2017,2015,Lisa Jeffrey,Canada,Math,6,5.7,,Noether Lecture,North America,10,2,2
+2017,2016,Laura DeMarco,United States,Math,6,5.7,"""for her fundamental contributions to complex dynamics, potential theory, and the emerging field of arithmetic dynamics""",Ruth Lyttle Satter,North America,11,3,2
 1947,1945,Gerty Theresa Cori,United States,Medicine,3,2.5,"""for their discovery of the course of the catalytic conversion of †glycogen""",Nobel,America,,,
 1977,1975,Rosalyn Sussman Yalow,United States,Medicine,3,2.5,"""for the development of †radioimmunoassaysof †peptide hormones""",Nobel,America,,,
-1983,1983,Barbara McClintock,United States,Medicine,3,2.4,"""for her discovery of mobile genetic elements""",Nobel,Europe,,,
-1986,1985,Rita Levi-Montalcini,Italy†and United States,Medicine,3,2.8,"""for their discoveries of †growth factors""",Nobel,America,,,
-1988,1987,Gertrude B. Elion,United States,Medicine,3,2.4,"""for their discoveries of important principles for drug treatment""",Nobel,America,,,
+1983,1984,Barbara McClintock,United States,Medicine,3,2.4,"""for her discovery of mobile genetic elements""",Nobel,Europe,0,0,0
+1986,1985,Rita Levi-Montalcini,Italy†and United States,Medicine,3,2.4,"""for their discoveries of †growth factors""",Nobel,America,1,1,0
+1988,1984,Gertrude B. Elion,United States,Medicine,3,2.6,"""for their discoveries of important principles for drug treatment""",Nobel,America,2,0,1
 1995,1995,Christiane N√ºsslein-Volhard,Germany,Medicine,3,2.5,"""for their discoveries concerning the genetic control of early †embryonic development""",Nobel,Europe,,,
-2004,2004,Linda B. Buck,United States,Medicine,3,2.5,"""for their discoveries of †odorant receptorsand the organization of the †olfactory system""",Nobel,America,,,
-2008,2004,Fran√ßoise Barr√©-Sinoussi,France,Medicine,3,2.3,"""for their discovery of HIV, †human immunodeficiency virus""",Nobel,Europe,,,
-2009,2006,Elizabeth Blackburn,Australia †and †United States,Medicine,3,2.5,"""for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,Europe,,,
-2009,2006,Carol W. Greider,United States,Medicine,3,2.3,"""for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,America,,,
-2014,2015,May-Britt Moser,Norway,Medicine,3,2.5,"""for their discoveries of cells that constitute a positioning system in the brain""",Nobel,Europe,,,
-2015,2015,Tu Youyou,China,Medicine,3,2.3,"""for her discoveries concerning a novel therapy against Malaria""",Nobel,Asia,,,
+2004,2004,Linda B. Buck,United States,Medicine,3,2.4,"""for their discoveries of †odorant receptorsand the organization of the †olfactory system""",Nobel,America,0,0,0
+2008,2005,Fran√ßoise Barr√©-Sinoussi,France,Medicine,3,2.4,"""for their discovery of HIV, †human immunodeficiency virus""",Nobel,Europe,1,1,0
+2009,2004,Elizabeth Blackburn,Australia †and †United States,Medicine,3,2.6,"""for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,Europe,2,0,1
+2009,2005,Carol W. Greider,United States,Medicine,3,2.6,"""for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,America,3,1,1
+2014,2014,May-Britt Moser,Norway,Medicine,3,2.5,"""for their discoveries of cells that constitute a positioning system in the brain""",Nobel,Europe,0,0,0
+2015,2015,Tu Youyou,China,Medicine,3,2.5,"""for her discoveries concerning a novel therapy against Malaria""",Nobel,Asia,1,1,0
 1905,1905,Bertha von Suttner,Austria Hungary,Peace,10,9.5,"Honorary President of Permanent International Peace Bureau, Bern, Switzerland; Author of Lay Down Your Arms.",Nobel,Europe,,,
 1931,1935,Jane Addams,United States,Peace,10,9.5,"Sociologist; International President, Women's International League for Peace and Freedom.",Nobel,America,,,
 1946,1945,Emily Greene Balch,United States,Peace,10,9.5,"Formerly Professor of History and Sociology; Honorary International President, Women's International League for Peace and Freedom.",Nobel,America,,,
-1976,1975,Betty Williams,United Kingdom,Peace,10,9.7,Peace Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,,,
-1976,1975,Mairead Maguire,United Kingdom,Peace,10,9.5,Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,,,
-1979,1975,Mother Teresa,India,Peace,10,9.3,"Leader of †Missionaries of Charity, †Calcutta.",Nobel,Asia,,,
-1982,1985,Alva Myrdal,Sweden,Peace,10,9.5,Former Cabinet Minister; Diplomat; Writer.,Nobel,Europe,,,
-1991,1995,Aung San Suu Kyi,Burma,Peace,10,9.7,"""for her non-violent struggle for democracy and human rights""",Nobel,Asia,,,
-1992,1995,Rigoberta Mench√∫,Guatemala,Peace,10,9.5,"""in recognition of her work for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples""",Nobel,America,,,
-1997,1995,Jody Williams,United States,Peace,10,9.3,"""for their work for the banning and clearing of anti-personnel mines""",Nobel,America,,,
-2003,2005,Shirin Ebadi,Iran,Peace,10,9.5,"""for her efforts for democracy and human rights. She has focused especially on the struggle for the rights of women and children""",Nobel,Asia,,,
-2004,2005,Wangari Maathai,Kenya,Peace,10,9.3,"""for her contribution to sustainable development, democracy and peace""",Nobel,Africa,,,
-2011,2016,Ellen Johnson Sirleaf,Liberia,Peace,10,9.5,"""For their non-violent struggle for the safety of women and for †women's rights †to full participation in peace-building work""",Nobel,Africa,,,
-2011,2016,Leymah Gbowee,Liberia,Peace,10,9.3,"""For their non-violent struggle for the safety of women and for †women's rights †to full participation in peace-building work""",Nobel,Africa,,,
-2011,2014,Tawakel Karman,Yemen,Peace,10,9.5,"""For their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work""",Nobel,Asia,,,
-2014,2014,Malala Yousafzai,Pakistan and India,Peace,10,9.3,"""for their struggle against the suppression of children and young people and for the right of all children to education"".",Nobel,Asia,,,
+1976,1974,Betty Williams,United Kingdom,Peace,10,9.4,Peace Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,0,0,0
+1976,1975,Mairead Maguire,United Kingdom,Peace,10,9.4,Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,1,1,0
+1979,1974,Mother Teresa,India,Peace,10,9.6,"Leader of †Missionaries of Charity, †Calcutta.",Nobel,Asia,2,0,1
+1982,1985,Alva Myrdal,Sweden,Peace,10,9.5,Former Cabinet Minister; Diplomat; Writer.,Nobel,Europe,,0,0
+1991,1994,Aung San Suu Kyi,Burma,Peace,10,9.4,"""for her non-violent struggle for democracy and human rights""",Nobel,Asia,0,0,0
+1992,1995,Rigoberta Mench√∫,Guatemala,Peace,10,9.4,"""in recognition of her work for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples""",Nobel,America,1,1,0
+1997,1994,Jody Williams,United States,Peace,10,9.6,"""for their work for the banning and clearing of anti-personnel mines""",Nobel,America,2,0,1
+2003,2004,Shirin Ebadi,Iran,Peace,10,9.5,"""for her efforts for democracy and human rights. She has focused especially on the struggle for the rights of women and children""",Nobel,Asia,0,0,0
+2004,2005,Wangari Maathai,Kenya,Peace,10,9.5,"""for her contribution to sustainable development, democracy and peace""",Nobel,Africa,1,1,0
+2011,2014,Ellen Johnson Sirleaf,Liberia,Peace,10,9.4,"""For their non-violent struggle for the safety of women and for †women's rights †to full participation in peace-building work""",Nobel,Africa,0,0,0
+2011,2015,Leymah Gbowee,Liberia,Peace,10,9.4,"""For their non-violent struggle for the safety of women and for †women's rights †to full participation in peace-building work""",Nobel,Africa,1,1,0
+2011,2014,Tawakel Karman,Yemen,Peace,10,9.6,"""For their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work""",Nobel,Asia,2,0,1
+2014,2015,Malala Yousafzai,Pakistan and India,Peace,10,9.6,"""for their struggle against the suppression of children and young people and for the right of all children to education"".",Nobel,Asia,3,1,1
 1903,1905,Marie Skodowska Curie,Poland and France,Physics,5,4.5,"""In recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel""",Nobel,Europe,,,
 1963,1965,Maria Goeppert-Mayer,United States,Physics,5,4.5,"""for their discoveries concerning nuclear shell structure""",Nobel,America,,,
-1986,1985,Judith Young,United States,Physics,5,4.4,"""For being the best young physicist in the world in 1986""",Maria Goeppert-Mayer,North America,,,
-1987,1983,Louis Dolan,United States,Physics,5,4.4,"""For being one of the foremost experts worldwide in string theory""",Maria Goeppert-Mayer,North America,,,
-1988,1985,Bonny L. Schumaker,United States,Physics,5,4.6,""" Rocket scientist""",Maria Goeppert-Mayer,North America,,,
-1989,1983,Cherry A. Murray,United States,Physics,5,4.6,"""For outstanding achievement by a woman physicist in the early years of her career""",Maria Goeppert-Mayer,North America,,,
-1990,1993,Ellen D. Williams,United States,Physics,5,4.5,""" For her research in surface properties and nanotechnology""",Maria Goeppert-Mayer,North America,,,
-1991,1993,Alice E. White,United States,Physics,5,4.3,"""For career in physics with focus on Nanofabrication""",Maria Goeppert-Mayer,North America,,,
-1992,1994,Barbara Cooper,United States,Physics,5,4.5,"""For her innovative experimental studies of low-energy ion interactions with metal surfaces""",Maria Goeppert-Mayer,North America,,,
-1993,1994,Ewine van Dishoeck,Netherlands,Physics,5,4.3,"""For her works on interstellar molecules; physical and chemical evolution during star formation and planet formation; submillimeter and mid-infrared astronomy""",Maria Goeppert-Mayer,Europe,,,
-1994,1995,Laura Greene,United States,Physics,5,4.5,"""She is noted for her research on Andreev bound states and is an expert in strongly correlated Fermionic systems""",Maria Goeppert-Mayer,North America,,,
-1995,1995,Jacqueline Hewitt,United States,Physics,5,4.3,"""She was the first person to discover Einstein rings""",Maria Goeppert-Mayer,North America,,,
-1996,1996,Marjorie Ann Olmstead,United States,Physics,5,5.4,"""For her innovative application of electron spectroscopies to surfaces and interfaces that has elucidated the importance of interfacial reactions on the structure""",Maria Goeppert-Mayer,North America,,,
-1997,1996,Margaret Murnane,Ireland,Physics,5,4.3,"""For her works with lasers. She built a laser that flashed for ten quadrillionths of a second - the fastest that any human being has ever created.""",Maria Goeppert-Mayer,Europe,,,
-1998,1997,Elizabeth Beise,United States,Physics,5,4.5,""" For her research in experimental nuclear physics focuses on the use of electromagnetic and weak probes of the internal structure of protons""",Maria Goeppert-Mayer,North America,,,
-1999,1997,Andrea M. Ghez,United States,Physics,5,4.3,"""For use of adaptive optics in studies of the galactic center""",Maria Goeppert-Mayer,North America,,,
-2000,2003,Sharon Glotzer,United States,Physics,5,4.5,"""For her contributions to the fields of soft matter and computational science""",Maria Goeppert-Mayer,North America,,,
-2001,2003,Janet Conrad,United States,Physics,5,4.3,""" For work on the lightest known matter particles, the neutrino""",Maria Goeppert-Mayer,North America,,,
-2002,2004,Deborah S. Jin,United States,Physics,5,4.5,"""Considered a pioneer in polar molecular quantum chemistry""",Maria Goeppert-Mayer,North America,,,
-2003,2004,Chung-Pei Ma,Taiwan,Physics,5,4.3,""" For works on large-scale structure of the universe, dark matter, and the cosmic microwave background.""",Maria Goeppert-Mayer,Asia,,,
-2004,2005,Suzanne Staggs,United States,Physics,5,4.5,"""For working on measurements of the cosmic microwave background (CMB) radiation left over from the universal primeval plasma""",Maria Goeppert-Mayer,North America,,,
-2005,2005,Yuri Suzuki,United States,Physics,5,4.3,"""Contribution to Nanoscience and Quantum Engineering""",Maria Goeppert-Mayer,North America,,,
-2006,2006,Hui Cao,China,Physics,5,5.4,"""For conribution on understanding and controlling light transport, scattering, absorption and amplification in complex photonic nanostructures""",Maria Goeppert-Mayer,Asia,,,
-2007,2006,Amy Barger,United States,Physics,5,4.3,"""She worked on the Morphs collaboration studying the formation and morphologies of distant galaxies""",Maria Goeppert-Mayer,North America,,,
-2008,2007,Vassiliki Kalogera,Greece,Physics,5,4.5,"""Leading theorist in the study of gravitational waves, the emission of X-rays from compact binary objects and the coalescence of neutron-star binaries""",Maria Goeppert-Mayer,Europe,,,
-2009,2007,Saskia Mioduszewski,United States,Physics,5,4.3,"""For work on relativistic heavy-ion collisions""",Maria Goeppert-Mayer,North America,,,
-2010,2014,Alessandra Lanzara,Italy,Physics,5,4.8,"""For focuse toward an understanding of the underlying physics in complex novel materials and nanostructures.""",Maria Goeppert-Mayer,Europe,,,
-2011,2014,R√cka Albert,Romenia,Physics,5,4.6,"""For noted for the Barab√°si Albert model and research into scale-free networks and Boolean modeling of biological systems.""",Maria Goeppert-Mayer,Europe,,,
-2012,2014,Nadya Mason,United States,Physics,5,4.4,"""For Superconductivity Quantum Computing Nanomaterials""",Maria Goeppert-Mayer,North America,,,
-2013,2015,Feryal √ñzel,Turkey,Physics,5,4.8,"""Recognized for her contributions to the field of neutron stars, black holes, and magnetars.""",Maria Goeppert-Mayer,Asia,,,
-2014,2015,Ana Maria Rey,Colombia,Physics,5,4.4,"""For work on Ultracold bosonic atoms loaded in optical lattices""",Maria Goeppert-Mayer,South America,,,
-2015,2016,Gretchen Campbell,United States,Physics,5,4.8,"""for her pioneering contributions to the study of superfluidity in atomic-gas Bose-Einstein condensates, realizing atomic analogs to superconducting and superfluid liquid circuitry, including the use of weak links to create the first closed-circuit atomtronic devices.""",Maria Goeppert-Mayer,North America,,,
-2016,2016,Henriette Elvang,United States,Physics,5,4.6,"""For work on aspects of quantum field theory, supersymmetry, gravity, and particle physics""",Maria Goeppert-Mayer,North America,,,
-2017,2016,Maiken Mikkelsen,United States,Physics,5,4.4,"""leading a research on exploring the behavior of novel nanoscale structures and materials """,Maria Goeppert-Mayer,North America,,,
-2004,,Louise Arbour,Canada,Pioneers,9,,""" Lawyer, prosecutor and jurist. She is currently the UN Special Representative for International Migration..""",Times 100People,Asia,,,
-2004,,Samantha Jane Power,United States,Pioneers,9,,"""Served as the United States Ambassador to the United Nations from 2013 to 2017.",Times 100People,North America,,,
-2004,,Sandra Day O'Connor,United States,Pioneers,9,,"""Associate Justice of the Supreme Court of the United States""",Times 100People,North America,,,
-2005,,Meg Whitman,United States,Pioneers,9,,"""American business executive, political activist, and philanthropist. Whitman served as President and Chief Executive Officer of Hewlett Packard Enterprise""",Times 100People,Africa,,,
-2005,,Anne Lauvergeon,France,Pioneers,9,,"†French†businesswoman, and was CEO of†Areva†2001ñ2011.",Times 100People,Europe,,,
-2006,,Patricia Russo,United States,Pioneers,9,,"""Russo is most widely known for having served as Chief Executive Officer (CEO) of Lucent Technologies.""",Times 100People,North America,,,
-2006,,Angelina Jolie,United States,Pioneers,9,,"""Is noted for her humanitarian efforts, for which she has received a Jean Hersholt Humanitarian Award and an honorary damehood of the Order of St Michael and St George (DCMG).""",Times 100People,North America,,,
-2006,,Mukhtaran Bibi,Pakistan,Pioneers,9,,""" In June 2002, Mukht?r M?'? was the survivor of a gang rape as a form of honour revenge""",Times 100People,Asia,,,
-2007,,Clara Furse,Canada,Pioneers,9,,In 2005 she was ranked 19th in Fortune magazine's Most Powerful Women in Business list,,North America,,,
+1986,1984,Judith Young,United States,Physics,5,4.4,"""For being the best young physicist in the world in 1986""",Maria Goeppert-Mayer,North America,0,0,0
+1987,1985,Louis Dolan,United States,Physics,5,4.4,"""For being one of the foremost experts worldwide in string theory""",Maria Goeppert-Mayer,North America,1,1,0
+1988,1984,Bonny L. Schumaker,United States,Physics,5,4.6,""" Rocket scientist""",Maria Goeppert-Mayer,North America,2,0,1
+1989,1985,Cherry A. Murray,United States,Physics,5,4.6,"""For outstanding achievement by a woman physicist in the early years of her career""",Maria Goeppert-Mayer,North America,3,1,1
+1990,1993,Ellen D. Williams,United States,Physics,5,4.4,""" For her research in surface properties and nanotechnology""",Maria Goeppert-Mayer,North America,0,0,0
+1991,1994,Alice E. White,United States,Physics,5,4.4,"""For career in physics with focus on Nanofabrication""",Maria Goeppert-Mayer,North America,1,1,0
+1992,1995,Barbara Cooper,United States,Physics,5,4.4,"""For her innovative experimental studies of low-energy ion interactions with metal surfaces""",Maria Goeppert-Mayer,North America,2,2,0
+1993,1996,Ewine van Dishoeck,Netherlands,Physics,5,4.4,"""For her works on interstellar molecules; physical and chemical evolution during star formation and planet formation; submillimeter and mid-infrared astronomy""",Maria Goeppert-Mayer,Europe,3,3,0
+1994,1997,Laura Greene,United States,Physics,5,4.4,"""She is noted for her research on Andreev bound states and is an expert in strongly correlated Fermionic systems""",Maria Goeppert-Mayer,North America,4,4,0
+1995,1993,Jacqueline Hewitt,United States,Physics,5,4.6,"""She was the first person to discover Einstein rings""",Maria Goeppert-Mayer,North America,5,0,1
+1996,1994,Marjorie Ann Olmstead,United States,Physics,5,4.6,"""For her innovative application of electron spectroscopies to surfaces and interfaces that has elucidated the importance of interfacial reactions on the structure""",Maria Goeppert-Mayer,North America,6,1,1
+1997,1995,Margaret Murnane,Ireland,Physics,5,4.6,"""For her works with lasers. She built a laser that flashed for ten quadrillionths of a second - the fastest that any human being has ever created.""",Maria Goeppert-Mayer,Europe,7,2,1
+1998,1996,Elizabeth Beise,United States,Physics,5,4.6,""" For her research in experimental nuclear physics focuses on the use of electromagnetic and weak probes of the internal structure of protons""",Maria Goeppert-Mayer,North America,8,3,1
+1999,1997,Andrea M. Ghez,United States,Physics,5,4.6,"""For use of adaptive optics in studies of the galactic center""",Maria Goeppert-Mayer,North America,9,4,1
+2000,2003,Sharon Glotzer,United States,Physics,5,4.4,"""For her contributions to the fields of soft matter and computational science""",Maria Goeppert-Mayer,North America,0,0,0
+2001,2004,Janet Conrad,United States,Physics,5,4.4,""" For work on the lightest known matter particles, the neutrino""",Maria Goeppert-Mayer,North America,1,1,0
+2002,2005,Deborah S. Jin,United States,Physics,5,4.4,"""Considered a pioneer in polar molecular quantum chemistry""",Maria Goeppert-Mayer,North America,2,2,0
+2003,2006,Chung-Pei Ma,Taiwan,Physics,5,4.4,""" For works on large-scale structure of the universe, dark matter, and the cosmic microwave background.""",Maria Goeppert-Mayer,Asia,3,3,0
+2004,2007,Suzanne Staggs,United States,Physics,5,4.4,"""For working on measurements of the cosmic microwave background (CMB) radiation left over from the universal primeval plasma""",Maria Goeppert-Mayer,North America,4,4,0
+2005,2003,Yuri Suzuki,United States,Physics,5,4.6,"""Contribution to Nanoscience and Quantum Engineering""",Maria Goeppert-Mayer,North America,5,0,1
+2006,2004,Hui Cao,China,Physics,5,4.6,"""For conribution on understanding and controlling light transport, scattering, absorption and amplification in complex photonic nanostructures""",Maria Goeppert-Mayer,Asia,6,1,1
+2007,2005,Amy Barger,United States,Physics,5,4.6,"""She worked on the Morphs collaboration studying the formation and morphologies of distant galaxies""",Maria Goeppert-Mayer,North America,7,2,1
+2008,2006,Vassiliki Kalogera,Greece,Physics,5,4.6,"""Leading theorist in the study of gravitational waves, the emission of X-rays from compact binary objects and the coalescence of neutron-star binaries""",Maria Goeppert-Mayer,Europe,8,3,1
+2009,2007,Saskia Mioduszewski,United States,Physics,5,4.6,"""For work on relativistic heavy-ion collisions""",Maria Goeppert-Mayer,North America,9,4,1
+2010,2013,Alessandra Lanzara,Italy,Physics,5,4.4,"""For focuse toward an understanding of the underlying physics in complex novel materials and nanostructures.""",Maria Goeppert-Mayer,Europe,0,0,0
+2011,2014,R√cka Albert,Romenia,Physics,5,4.4,"""For noted for the Barab√°si Albert model and research into scale-free networks and Boolean modeling of biological systems.""",Maria Goeppert-Mayer,Europe,1,1,0
+2012,2015,Nadya Mason,United States,Physics,5,4.4,"""For Superconductivity Quantum Computing Nanomaterials""",Maria Goeppert-Mayer,North America,2,2,0
+2013,2016,Feryal √ñzel,Turkey,Physics,5,4.4,"""Recognized for her contributions to the field of neutron stars, black holes, and magnetars.""",Maria Goeppert-Mayer,Asia,3,3,0
+2014,2013,Ana Maria Rey,Colombia,Physics,5,4.6,"""For work on Ultracold bosonic atoms loaded in optical lattices""",Maria Goeppert-Mayer,South America,4,0,1
+2015,2014,Gretchen Campbell,United States,Physics,5,4.6,"""for her pioneering contributions to the study of superfluidity in atomic-gas Bose-Einstein condensates, realizing atomic analogs to superconducting and superfluid liquid circuitry, including the use of weak links to create the first closed-circuit atomtronic devices.""",Maria Goeppert-Mayer,North America,5,1,1
+2016,2015,Henriette Elvang,United States,Physics,5,4.6,"""For work on aspects of quantum field theory, supersymmetry, gravity, and particle physics""",Maria Goeppert-Mayer,North America,6,2,1
+2017,2016,Maiken Mikkelsen,United States,Physics,5,4.6,"""leading a research on exploring the behavior of novel nanoscale structures and materials """,Maria Goeppert-Mayer,North America,7,3,1
+2004,2014,Louise Arbour,Canada,Pioneers,9,8.3,""" Lawyer, prosecutor and jurist. She is currently the UN Special Representative for International Migration..""",Times 100People,Asia,0,0,0
+2004,2015,Samantha Jane Power,United States,Pioneers,9,8.3,"""Served as the United States Ambassador to the United Nations from 2013 to 2017.",Times 100People,North America,1,1,0
+2004,2016,Sandra Day O'Connor,United States,Pioneers,9,8.3,"""Associate Justice of the Supreme Court of the United States""",Times 100People,North America,2,2,0
+2005,2014,Meg Whitman,United States,Pioneers,9,8.5,"""American business executive, political activist, and philanthropist. Whitman served as President and Chief Executive Officer of Hewlett Packard Enterprise""",Times 100People,Africa,3,0,1
+2005,2015,Anne Lauvergeon,France,Pioneers,9,8.5,"†French†businesswoman, and was CEO of†Areva†2001ñ2011.",Times 100People,Europe,4,1,1
+2006,2016,Patricia Russo,United States,Pioneers,9,8.5,"""Russo is most widely known for having served as Chief Executive Officer (CEO) of Lucent Technologies.""",Times 100People,North America,5,2,1
+2006,2014,Angelina Jolie,United States,Pioneers,9,8.7,"""Is noted for her humanitarian efforts, for which she has received a Jean Hersholt Humanitarian Award and an honorary damehood of the Order of St Michael and St George (DCMG).""",Times 100People,North America,6,0,2
+2006,2015,Mukhtaran Bibi,Pakistan,Pioneers,9,8.7,""" In June 2002, Mukht?r M?'? was the survivor of a gang rape as a form of honour revenge""",Times 100People,Asia,7,1,2
+2007,2016,Clara Furse,Canada,Pioneers,9,8.7,In 2005 she was ranked 19th in Fortune magazine's Most Powerful Women in Business list,,North America,8,2,2
