@@ -1,5 +1,6 @@
-   var margin = {top: 100, right: 60, bottom: 40, left:60};
-   var width = 1300 - margin.left - margin.right;
+function drawDefault() {
+var margin = {top: 10, right: 60, bottom: 40, left:60};
+   var width = 1200 - margin.left - margin.right;
    var height = 600 - margin.top - margin.bottom;
 
     //used to parse time data on "year" only
@@ -11,7 +12,6 @@
     var yValue = function(d) { return d.category;};
 	//var yScale = d3.scalePoint().range([height, 0]).padding(1);
 
-    console.log(yValue)
     var yScale = d3.scaleLinear().range([height, 0]);
 
     //var yMap = function(d) { return yScale(yValue(d))+d3.randomUniform(15, 45)();};
@@ -33,6 +33,13 @@
 	    .append('g')
 		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
    
+        
+    var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+    
+
 // Gridlines in x axis funcitons
 function make_x_gridlines() {  
     return d3.axisBottom(xScale)
@@ -44,11 +51,6 @@ function make_y_gridlines() {
     return d3.axisLeft(yScale)
         .ticks(11)
 }
-        
-    var tooltip = d3.select("body").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0);
-
 
 d3.csv('sorted data.csv',function(error, data){
 		data.forEach(function(d){
@@ -165,13 +167,13 @@ d3.csv('sorted data.csv',function(error, data){
   // draw legend text
   legend.append("text")
     
-      .attr("x", width + 35)
+      .attr("x", width + 26)
       //.attr("y", 3)
-      .attr("dy", ".0.65em")
+      .attr("dy", "0.65em")
       .style("text-anchor", "end")
-      .text(function(d) { return d.award;})
+      .text(function(d) { return d;})
 });
-
+}
 
 function mapfunc(d){
     
@@ -187,3 +189,4 @@ function mapfunc(d){
     if(d==10){return "Peace";}
  
 }
+
