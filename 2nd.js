@@ -18,7 +18,7 @@ function drawDefault() {
         //var yMap = function(d) { return yScale(yValue(d))+d3.randomUniform(15, 45)();};
         var yMap = function(d) { return yScale(yValue(d));};
 
-        var color = d3.scaleOrdinal(d3.schemeCategory10);
+        var color = d3.scaleOrdinal(d3.schemePastel2);
         var cValue = function(d) { return d.continent;};
         var circles;
 
