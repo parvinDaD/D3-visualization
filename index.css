@@ -1,11 +1,7 @@
 p.center-align{
     margin-left: 40px;
 }
-div.visual{
-   position: relative;
-   height: 400px;
 
-}
 div.info{
     position: relative;
     height: 160px;
@@ -92,7 +88,7 @@ body {
     left: 50%; 
     margin-left: -90px;
     font: 12px Garamond;
-    //font-weight: bold;
+/*    font-weight: bold;*/
   padding: 12px;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;	

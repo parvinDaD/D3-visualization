@@ -1,6 +1,6 @@
 function drawDefault() {
-var margin = {top: 10, right: 60, bottom: 40, left:60};
-   var width = 1200 - margin.left - margin.right;
+var margin = {top: 10, right: 60, bottom: 40, left:100};
+   var width = 1100 - margin.left - margin.right;
    var height = 600 - margin.top - margin.bottom;
 
     //used to parse time data on "year" only
@@ -40,11 +40,7 @@ var margin = {top: 10, right: 60, bottom: 40, left:60};
 
     
 
-// Gridlines in x axis funcitons
-function make_x_gridlines() {  
-    return d3.axisBottom(xScale)
-         .ticks(13)
-}
+
 
 // Gridlines in y axis function
 function make_y_gridlines() {        
@@ -111,7 +107,7 @@ d3.csv('sorted data.csv',function(error, data){
   svg.append("g")
     .attr("class", "grid")
     .attr("transform", "translate(0," + height + ")")
-    .call(make_x_gridlines()
+    .call(make_x_gridlines(xScale)
          .tickSize(-height)
          .tickFormat("")
          )
@@ -167,10 +163,10 @@ d3.csv('sorted data.csv',function(error, data){
   // draw legend text
   legend.append("text")
     
-      .attr("x", width + 26)
-      //.attr("y", 3)
+      .attr("x", width - 25)
+      .attr("y", 3)
       .attr("dy", "0.65em")
-      .style("text-anchor", "end")
+      .style("text-anchor", "start")
       .text(function(d) { return d;})
 });
 }
@@ -190,3 +186,8 @@ function mapfunc(d){
  
 }
 
+// Gridlines in x axis funcitons
+function make_x_gridlines(xScale) {  
+    return d3.axisBottom(xScale)
+         .ticks(13)
+}
