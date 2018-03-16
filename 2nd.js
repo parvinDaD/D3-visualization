@@ -21,8 +21,6 @@ function drawDefault() {
 
         var color = d3.scaleOrdinal().domain(["Europe","North America","Asia","Australia","Africa","America","South America"]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#dbe587","#decbe4"]);
 
-        
-
         var cValue = function(d) { return d.continent;};
         var circles;
 
