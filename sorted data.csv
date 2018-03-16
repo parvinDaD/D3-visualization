@@ -43,11 +43,11 @@ year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
 1909,1905,Selma Lagerl√∂f,Sweden,Literature,2,1.5,"""in appreciation of the lofty idealism, vivid imagination and spiritual perception that characterize her writings""",Nobel,Europe,,,
 1926,1924,Grazia Deledda,Italy,Literature,2,1.5,"""for her idealistically inspired writings which with plastic clarity picture the life on her native island and with depth and sympathy deal with human problems in general""",Nobel,Europe,0,0,0
 1928,1925,Sigrid Undset,Norway,Literature,2,1.5,"""principally for her powerful descriptions of Northern life during the Middle Ages""",Nobel,Europe,1,1,0
-1938,1935,Pearl S. Buck,United States,Literature,2,1.5,"""for her rich and truly epic descriptions of peasant life in China and for her biographical masterpieces""",Nobel,America,,,
+1938,1935,Pearl S. Buck,United States,Literature,2,1.5,"""for her rich and truly epic descriptions of peasant life in China and for her biographical masterpieces""",Nobel,North America,,,
 1945,1945,Gabriela Mistral,Chile,Literature,2,1.5,"""for her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world""",Nobel,South America,,,
 1966,1965,Nelly Sachs,Sweden,Literature,2,1.5,"""for her outstanding lyrical and dramatic writing, which interprets Israel's destiny with touching strength""",Nobel,Europe,,,
 1991,1994,Nadine Gordimer,South Africa,Literature,2,1.4,"""who through her magnificent epic writing has - in the words of Alfred Nobel - been of very great benefit to humanity""",Nobel,Africa,0,0,0
-1993,1995,Toni Morrison,United States,Literature,2,1.4,"""who in novels characterized by visionary force and poetic import, gives life to an essential aspect of American reality""",Nobel,America,1,1,0
+1993,1995,Toni Morrison,United States,Literature,2,1.4,"""who in novels characterized by visionary force and poetic import, gives life to an essential aspect of American reality""",Nobel,North America,1,1,0
 1996,1994,Wis awa Szymborska,Poland,Literature,2,1.6,"""for poetry that with ironic precision allows the historical and biological context to come to light in fragments of human reality""",Nobel,Europe,2,0,1
 2004,2004,Elfriede Jelinek,Austria,Literature,2,1.4,"""for her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society's clich√©s and their subjugating power""",Nobel,Europe,0,0,0
 2007,2005,Doris Lessing,United Kingdom,Literature,2,1.4,"""that epicist of the female experience, who with scepticism, fire and visionary power has subjected a divided civilisation to scrutiny""",Nobel,Europe,1,1,0
@@ -107,28 +107,28 @@ year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
 2016,2014,Karen E. Smith,United States,Math,6,5.7,,Noether Lecture,North America,9,1,2
 2017,2015,Lisa Jeffrey,Canada,Math,6,5.7,,Noether Lecture,North America,10,2,2
 2017,2016,Laura DeMarco,United States,Math,6,5.7,"""for her fundamental contributions to complex dynamics, potential theory, and the emerging field of arithmetic dynamics""",Ruth Lyttle Satter,North America,11,3,2
-1947,1945,Gerty Theresa Cori,United States,Medicine,3,2.5,"""for their discovery of the course of the catalytic conversion of †glycogen""",Nobel,America,,,
-1977,1975,Rosalyn Sussman Yalow,United States,Medicine,3,2.5,"""for the development of †radioimmunoassaysof †peptide hormones""",Nobel,America,,,
+1947,1945,Gerty Theresa Cori,United States,Medicine,3,2.5,"""for their discovery of the course of the catalytic conversion of †glycogen""",Nobel,North America,,,
+1977,1975,Rosalyn Sussman Yalow,United States,Medicine,3,2.5,"""for the development of †radioimmunoassaysof †peptide hormones""",Nobel,North America,,,
 1983,1984,Barbara McClintock,United States,Medicine,3,2.4,"""for her discovery of mobile genetic elements""",Nobel,Europe,0,0,0
-1986,1985,Rita Levi-Montalcini,Italy†and United States,Medicine,3,2.4,"""for their discoveries of †growth factors""",Nobel,America,1,1,0
-1988,1984,Gertrude B. Elion,United States,Medicine,3,2.6,"""for their discoveries of important principles for drug treatment""",Nobel,America,2,0,1
+1986,1985,Rita Levi-Montalcini,Italy†and United States,Medicine,3,2.4,"""for their discoveries of †growth factors""",Nobel,North America,1,1,0
+1988,1984,Gertrude B. Elion,United States,Medicine,3,2.6,"""for their discoveries of important principles for drug treatment""",Nobel,North America,2,0,1
 1995,1995,Christiane N√ºsslein-Volhard,Germany,Medicine,3,2.5,"""for their discoveries concerning the genetic control of early †embryonic development""",Nobel,Europe,,,
-2004,2004,Linda B. Buck,United States,Medicine,3,2.4,"""for their discoveries of †odorant receptorsand the organization of the †olfactory system""",Nobel,America,0,0,0
+2004,2004,Linda B. Buck,United States,Medicine,3,2.4,"""for their discoveries of †odorant receptorsand the organization of the †olfactory system""",Nobel,North America,0,0,0
 2008,2005,Fran√ßoise Barr√©-Sinoussi,France,Medicine,3,2.4,"""for their discovery of HIV, †human immunodeficiency virus""",Nobel,Europe,1,1,0
 2009,2004,Elizabeth Blackburn,Australia †and †United States,Medicine,3,2.6,"""for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,Europe,2,0,1
-2009,2005,Carol W. Greider,United States,Medicine,3,2.6,"""for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,America,3,1,1
+2009,2005,Carol W. Greider,United States,Medicine,3,2.6,"""for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase""",Nobel,North America,3,1,1
 2014,2014,May-Britt Moser,Norway,Medicine,3,2.5,"""for their discoveries of cells that constitute a positioning system in the brain""",Nobel,Europe,0,0,0
 2015,2015,Tu Youyou,China,Medicine,3,2.5,"""for her discoveries concerning a novel therapy against Malaria""",Nobel,Asia,1,1,0
 1905,1905,Bertha von Suttner,Austria Hungary,Peace,10,9.5,"Honorary President of Permanent International Peace Bureau, Bern, Switzerland; Author of Lay Down Your Arms.",Nobel,Europe,,,
-1931,1935,Jane Addams,United States,Peace,10,9.5,"Sociologist; International President, Women's International League for Peace and Freedom.",Nobel,America,,,
-1946,1945,Emily Greene Balch,United States,Peace,10,9.5,"Formerly Professor of History and Sociology; Honorary International President, Women's International League for Peace and Freedom.",Nobel,America,,,
+1931,1935,Jane Addams,United States,Peace,10,9.5,"Sociologist; International President, Women's International League for Peace and Freedom.",Nobel,North America,,,
+1946,1945,Emily Greene Balch,United States,Peace,10,9.5,"Formerly Professor of History and Sociology; Honorary International President, Women's International League for Peace and Freedom.",Nobel,North America,,,
 1976,1974,Betty Williams,United Kingdom,Peace,10,9.4,Peace Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,0,0,0
 1976,1975,Mairead Maguire,United Kingdom,Peace,10,9.4,Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,1,1,0
 1979,1974,Mother Teresa,India,Peace,10,9.6,"Leader of †Missionaries of Charity, †Calcutta.",Nobel,Asia,2,0,1
 1982,1985,Alva Myrdal,Sweden,Peace,10,9.5,Former Cabinet Minister; Diplomat; Writer.,Nobel,Europe,,0,0
 1991,1994,Aung San Suu Kyi,Burma,Peace,10,9.4,"""for her non-violent struggle for democracy and human rights""",Nobel,Asia,0,0,0
-1992,1995,Rigoberta Mench√∫,Guatemala,Peace,10,9.4,"""in recognition of her work for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples""",Nobel,America,1,1,0
-1997,1994,Jody Williams,United States,Peace,10,9.6,"""for their work for the banning and clearing of anti-personnel mines""",Nobel,America,2,0,1
+1992,1995,Rigoberta Mench√∫,Guatemala,Peace,10,9.4,"""in recognition of her work for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples""",Nobel,North America,1,1,0
+1997,1994,Jody Williams,United States,Peace,10,9.6,"""for their work for the banning and clearing of anti-personnel mines""",Nobel,North America,2,0,1
 2003,2004,Shirin Ebadi,Iran,Peace,10,9.5,"""for her efforts for democracy and human rights. She has focused especially on the struggle for the rights of women and children""",Nobel,Asia,0,0,0
 2004,2005,Wangari Maathai,Kenya,Peace,10,9.5,"""for her contribution to sustainable development, democracy and peace""",Nobel,Africa,1,1,0
 2011,2014,Ellen Johnson Sirleaf,Liberia,Peace,10,9.4,"""For their non-violent struggle for the safety of women and for †women's rights †to full participation in peace-building work""",Nobel,Africa,0,0,0
@@ -136,7 +136,7 @@ year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
 2011,2014,Tawakel Karman,Yemen,Peace,10,9.6,"""For their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work""",Nobel,Asia,2,0,1
 2014,2015,Malala Yousafzai,Pakistan and India,Peace,10,9.6,"""for their struggle against the suppression of children and young people and for the right of all children to education"".",Nobel,Asia,3,1,1
 1903,1905,Marie Skodowska Curie,Poland and France,Physics,5,4.5,"""In recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel""",Nobel,Europe,,,
-1963,1965,Maria Goeppert-Mayer,United States,Physics,5,4.5,"""for their discoveries concerning nuclear shell structure""",Nobel,America,,,
+1963,1965,Maria Goeppert-Mayer,United States,Physics,5,4.5,"""for their discoveries concerning nuclear shell structure""",Nobel,North America,,,
 1986,1984,Judith Young,United States,Physics,5,4.4,"""For being the best young physicist in the world in 1986""",Maria Goeppert-Mayer,North America,0,0,0
 1987,1985,Louis Dolan,United States,Physics,5,4.4,"""For being one of the foremost experts worldwide in string theory""",Maria Goeppert-Mayer,North America,1,1,0
 1988,1984,Bonny L. Schumaker,United States,Physics,5,4.6,""" Rocket scientist""",Maria Goeppert-Mayer,North America,2,0,1

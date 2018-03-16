@@ -19,7 +19,7 @@ function drawDefault() {
         var yMap = function(d) { return yScale(yValue(d));};
 
 
-        var color = d3.scaleOrdinal().domain(["Europe","North America","Asia","Australia","Africa","America","South America"]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#dbe587","#decbe4"]);
+        var color = d3.scaleOrdinal().domain(["North America","South America", "Europe","Asia","Australia","Africa",]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#decbe4"]);
         
         var circles;
 
@@ -136,9 +136,11 @@ function drawDefault() {
 
       // draw legend colored rectangles
       legend.append("rect")
-          .attr("x", width - 60)
-          .attr("width", 18)
-          .attr("height", 18)
+          .attr("x", width - 50)
+          .attr("rx",5)
+          .attr("ry",5)
+          .attr("width", 95)
+          .attr("height", 19)
           .style("fill", color);
         
     //Adding click event
@@ -163,10 +165,11 @@ function drawDefault() {
       // draw legend text
       legend.append("text")
 
-          .attr("x", width - 25)
+          .attr("x", width - 2)
           .attr("y", 3)
           .attr("dy", "0.65em")
-          .style("text-anchor", "start")
+          .style("text-anchor", "middle")
+          .style("font-size","14px")
           .text(function(d) { return d;})
     });
 }
