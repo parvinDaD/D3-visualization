@@ -18,11 +18,15 @@ function drawDefault() {
         //var yMap = function(d) { return yScale(yValue(d))+d3.randomUniform(15, 45)();};
         var yMap = function(d) { return yScale(yValue(d));};
 
-        var color = d3.scaleOrdinal(d3.schemePastel2);
+
+        var color = d3.scaleOrdinal().domain(["Europe","North America","Asia","Australia","Africa","America","South America"]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#dbe587","#decbe4"]);
+
+        
+
         var cValue = function(d) { return d.continent;};
         var circles;
 
-
+        //#fbb4ae    
         var xAxis = d3.axisBottom().scale(xScale);
         var yAxis = d3.axisLeft().scale(yScale).ticks(11).tickSize(0,9,0).tickFormat( function(d) { return mapfunc(d);});
 
@@ -55,7 +59,7 @@ function drawDefault() {
             xScale.domain([d3.min(data, function(d){return d.year;}),
             d3.max(data,function(d){return d.year;})]).nice();
 
-            yScale.domain([d3.min(data, function(d) { return d.category2;})-1, d3.max(data, function(d) { return d.category2;})]);
+            yScale.domain([d3.min(data, function(d) { return d.category2;})-1, d3.max(data, function(d) { return d.category2;})]).nice();
 
     //		yScale.domain(d3.extent(data, function(d){
     //			return d.category2;
@@ -66,14 +70,8 @@ function drawDefault() {
             var gx=svg.append('g')
                 .attr('transform', 'translate(0,' + height + ')')
                 .attr('class', 'x axis')
-                .call(xAxis)
-               .append("text")
-                 .attr("x",width/2)
-                 .attr("y",+30)
-                 .attr("fill", "#000")
-                 .style("text-anchor", "middle")
-                 .attr("font-size", "12px")
-                 .text("Decade");
+                .call(xAxis);
+               
 
     // y-axis is translated to (0,0)
         svg.append("g")
@@ -81,19 +79,13 @@ function drawDefault() {
         .call(yAxis)
         .selectAll("text")
         .attr("y", 26)
-        .attr("x",-60)
+        .attr("x",-5)
         .attr("cx", -1000)
         .attr("cy", -1000)
         .attr("dy", ".85em")
-        .attr("font-weight","bold")
+        .attr("font-weight","bold");
         //.attr("transform", "rotate(60)")
-        .style("text-anchor", "start")
-            .append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("x",-50)
-            .attr("y",-30)
-            .attr("fill", "#000")
-            .text("Categories");
+        
 
         // Draw the x gridlines
       svg.append("g")
@@ -120,7 +112,7 @@ function drawDefault() {
           .attr("r", 4)
           .attr("cx", xMap)
           .attr("cy", yMap)
-          .style("fill", function(d) { return color(cValue(d));})
+          .style("fill", function(d) { return color(d.continent);})
           .on("mouseover", function(d) {
             d3.select(this)
               tooltip.transition()
@@ -185,13 +177,13 @@ function drawDefault() {
 function mapfunc(d){
     
     if(d==1){return "Art";}
-    if(d==2){return "Litrature";}
+    if(d==2){return "Literature";}
     if(d==3){return "Medicine";}
-    if(d==4){return "Chemistary";}
+    if(d==4){return "Chemistry";}
     if(d==5){return "Physics";}
     if(d==6){return "Math";}
     if(d==7){return "Computer";}
-    if(d==8){return "Leadership";}
+    if(d==8){return "Peace & Leadership";}
     if(d==9){return "Pioneers";}
     if(d==10){return "Peace";}
  
