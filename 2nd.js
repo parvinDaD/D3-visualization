@@ -1,6 +1,6 @@
 //Default visualization
 function drawDefault() {
-    var margin = {top: 10, right: 60, bottom: 40, left:100};
+    var margin = {top: 10, right: 60, bottom: 40, left:150};
        var width = 1100 - margin.left - margin.right;
        var height = 600 - margin.top - margin.bottom;
 
@@ -19,7 +19,7 @@ function drawDefault() {
         var yMap = function(d) { return yScale(yValue(d));};
 
 
-        var color = d3.scaleOrdinal().domain(["North America","South America", "Europe","Asia","Australia","Africa",]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#decbe4"]);
+        var color = d3.scaleOrdinal().domain(["North America","South America", "Europe","Asia","Australia","Africa", "All"]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#decbe4", "#9b989a"]);
         
         var circles;
 
@@ -124,15 +124,19 @@ function drawDefault() {
               tooltip.transition()
                    .duration(500)
                    .style("opacity", 0);
-          });     
-
-
-          // draw legend
+          });
+        
+ 
+     // draw legend
       var legend = svg.selectAll(".legend")
           .data(color.domain())
         .enter().append("g")
           .attr("class", "legend")
+          .attr("id", function(d, i ){
+              return color.domain()[i];}) // assign ID to each legend
           .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+    
+    
 
       // draw legend colored rectangles
       legend.append("rect")
@@ -145,21 +149,29 @@ function drawDefault() {
         
     //Adding click event
       legend.on("click", function(type) {
-        // dim all of the icons in legend
+        //TODO: add multi-selection
+          
+         //dim all of the legends
         d3.selectAll(".legend")
             .style("opacity", 0.1);
         // make the one selected be un-dimmed
         d3.select(this)
             .style("opacity", 1);
-        //Select all dot and hide
-        d3.selectAll(".dot")
+        
+        //Show if 'All' selected
+        if (d3.select(this).attr('id') == 'All') {
+           d3.selectAll(".dot")
+             .style("opacity", 1)
+        } else {
+          //Select all dot and hide
+          d3.selectAll(".dot")
           .style("opacity", 0.1)
-          //Filter out the ones we want to show
           .filter(function(d){
-             return d["continent"] == type;
-        }) 
-          //Make this line seen
-          .style("opacity", 1);
+            return d["continent"] == type
+          })
+            //Make this line seen
+           .style("opacity", 1);
+        }  
       })
 
       // draw legend text
