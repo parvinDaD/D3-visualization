@@ -24,8 +24,8 @@ function drawDefault() {
     var yMap = function(d) { return yScale(yValue(d));};
 
 
-    var color = d3.scaleOrdinal().domain(["North America","South America", "Europe","Asia","Australia","Africa", "All"]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#decbe4", "#9b989a"]);
-
+    var color = d3.scaleOrdinal().domain(["All","North America","South America", "Europe","Africa","Asia","Australia" ]).range(["#9b989a","#beaed4","#ffd92f","#a6d854","#e5c480","#fb9a99","#80b1d3"]);
+    
     var circles;
 
     //#fbb4ae    
@@ -53,7 +53,7 @@ function drawDefault() {
     .style("opacity", 0);
 
 
-    d3.csv('final_data.csv',function(error, data){
+    d3.csv('full.csv',function(error, data){
             data.forEach(function(d){
                  d.year2 = +d.year;
                  d.year = parseTime(d.yearMap); 
@@ -131,8 +131,8 @@ function drawDefault() {
                    .attr('r',10)
                    .style("opacity", .9);
               tooltip.html(d.name+"<br/>"+"Year: "+ d.year2+"<br/>"+"Country: "+d.country+"<br/>"+"Award: "+d.award+" - "+d.cat+"<br/>"+"________________"+"<br/>"+d.Rationale) 
-                   .style("left", (d3.event.pageX - 5.5) + "px")
-                   .style("top", (d3.event.pageY + 1) + "px");
+                   .style("left", (d3.event.pageX -4) + "px")
+                   .style("top", (d3.event.pageY+2 ) + "px");
           })
           .on("mouseout", function(d) {
               tooltip.transition()
@@ -148,7 +148,8 @@ function drawDefault() {
           .attr("class", "legend")
           .attr("id", function(d, i ){
               return color.domain()[i];}) // assign ID to each legend
-          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
+      ;
     
     
 
@@ -160,17 +161,17 @@ function drawDefault() {
           .attr("width", 95)
           .attr("height", 19)
           .style("fill", color);
-        
+      
     //Adding click event
       legend.on("click", function(type) {
-        //TODO: add multi-selection
+        
           
          //dim all of the legends
-        d3.selectAll(".legend")
-            .style("opacity", 0.1);
+        //d3.selectAll(".legend")
+          //  .style("opacity", 0.1);
         // make the one selected be un-dimmed
-        d3.select(this)
-            .style("opacity", 1);
+        //d3.select(this)
+          //  .style("opacity", 1);
         
         //Show if 'All' selected
         if (d3.select(this).attr('id') == 'All') {
@@ -198,7 +199,7 @@ function drawDefault() {
           .style("font-size","14px")
           .text(function(d) { return d;})
     //ref: http://bl.ocks.org/WilliamQLiu/76ae20060e19bf42d774  
-    //WEN: I don't like this, but what can I do...
+
     var categoryMap = ["Art", "Literature", "Medicine", "Chemistry", "Physics", "Math",  "Computer", "Peace & Leadership", "Pioneers"];
         
     svg.on("click", function() {
@@ -307,7 +308,7 @@ function drawCell(margin2, data) {
               tooltip.transition()
                    .duration(200)
                    .attr('r',10)
-                   .style("opacity", .9);
+                   .style("opacity", .5);
               tooltip.html(d.name+"<br/>"+"Year: "+ d.year2+"<br/>"+"Country: "+d.country+"<br/>"+"Award: "+d.award+" - "+d.cat+"<br/>"+"________________"+"<br/>"+d.Rationale) 
                    .style("left", (d3.event.pageX - 5.5) + "px")
                    .style("top", (d3.event.pageY + 1) + "px");
