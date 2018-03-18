@@ -41,7 +41,7 @@ function drawDefault() {
         .style("opacity", 0);
 
 
-    d3.csv('sorted data.csv',function(error, data){
+    d3.csv('final_data.csv',function(error, data){
             data.forEach(function(d){
                  d.year2 = d.year;
                  d.year = parseTime(d.yearMap);       
@@ -52,11 +52,12 @@ function drawDefault() {
                  d.Rationale = d.Rationale;
                  d.continent = d.continent;
             });
-
-            xScale.domain([d3.min(data, function(d){return d.year;}),
+        console.log(data);
+            
+        xScale.domain([d3.min(data, function(d){return d.year;}),
             d3.max(data,function(d){return d.year;})]).nice();
 
-            yScale.domain([d3.min(data, function(d) { return d.category2;})-1, d3.max(data, function(d) { return d.category2;})]).nice();
+        yScale.domain([d3.min(data, function(d) { return d.category2;})-1, d3.max(data, function(d) { return d.category2;})]).nice();
 
     //		yScale.domain(d3.extent(data, function(d){
     //			return d.category2;
@@ -64,7 +65,7 @@ function drawDefault() {
             //yScale.domain(data.map(function(d) { return d.category; }));
 
             // adding axes is also simpler now, just translate x-axis to (0,height) and it's alread defined to be a bottom axis. 
-            var gx=svg.append('g')
+        var gx=svg.append('g')
                 .attr('transform', 'translate(0,' + height + ')')
                 .attr('class', 'x axis')
                 .call(xAxis);
@@ -213,3 +214,6 @@ function make_y_gridlines(yScale) {
     return d3.axisLeft(yScale)
         .ticks(11)
 }
+
+
+
