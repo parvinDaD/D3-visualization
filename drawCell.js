@@ -45,7 +45,7 @@ function drawCell(margin2, color, yearLower, yearUpper, data) {
         .selectAll("text")
         .attr("font-weight","bold");
 //    
-    //Force layout ref: http://bl.ocks.org/bimannie/cf443db3222b747d3155f8797abc0593
+    //Force layout 
     var simulation = d3.forceSimulation(data)
         .force("x", d3.forceX(function(d) { return xScale(d.year2); }).strength(1))
         .force("y", d3.forceY(function(d){
@@ -60,7 +60,6 @@ function drawCell(margin2, color, yearLower, yearUpper, data) {
     
     
     //Append image to circles
-    //https://www.youtube.com/watch?v=FUJjNG4zkWY&t=5s
     for (var i = 0; i< data.length; ++i) {
         svg.append("defs")
         .append("pattern")
