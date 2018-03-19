@@ -4,7 +4,7 @@ function drawDefault() {
     height = 600 - margin.top - margin.bottom;
     
     
-    var margin2 = {top: 10, right: 60, bottom: 10, left: 150},
+    var margin2 = {top: 10, right: 60, bottom: 20, left: 150},
     width2 = 1100 - margin2.left - margin2.right,
     height2 = 200 - margin2.top - margin2.bottom;
     
@@ -206,25 +206,21 @@ function drawDefault() {
         var coords = d3.mouse(this);
         //Convert pixel to data
         var posX = xScale.invert(coords[0]),
-            posY = Math.round(yScale.invert(coords[1]));
+            posY = Math.floor(yScale.invert(coords[1]));
         var category = categoryMap[posY],
             date = new Date(posX),
             year = date.getFullYear();
-        console.log("year", year);
-        console.log("selected category", category);
         
         //Find decade boundary given year
         var decadeLower = year - year%10,
             decadeUpper = decadeLower + 10;
-        console.log("selected decade lower", decadeLower);
-        console.log("selected decade upper", decadeUpper);
+       
         //Get relevant data
-        //TODO: bug here, read in yearMap which is different than year2 
         var cellData = data.filter(function(d) {
             return d["cat"] === category && d["year2"] < decadeUpper && d["year2"] >= decadeLower
         });
         clearCell();
-        drawCell(margin2, cellData);
+        drawCell(margin2, color, decadeLower, decadeUpper, cellData);
         
         });
  
@@ -241,7 +237,7 @@ function clearCell() {
 }
 
 //Render cellData and draw sub svg
-function drawCell(margin2, data) {
+function drawCell(margin2, color, yearLower, yearUpper, data) {
     console.log("cellData", data);
    var height = d3.select("#cell").attr("height"),
        width = d3.select("#cell").attr("width");
@@ -250,46 +246,43 @@ function drawCell(margin2, data) {
         .attr('transform', 'translate(' + margin2.left + ',' + margin2.top + ')');
 
     var xScale = 
-        d3.scaleLinear().range([0, width-100])
-            .domain([d3.min(data, function(d){return    d.year2;}),
-            d3.max(data,function(d){return d.year2;})]);
-
+        d3.scaleLinear().range([0, width-100]);
+    xScale.domain([yearLower-1, yearUpper]).nice();
+    
+   
+  
+    //Set yscale with padding
     var yScale = 
-        d3.scaleBand().range([height, 0])
-        .domain(data.map(function(d) {
+        d3.scaleBand().range([height, 0]).padding(1);
+    yScale.domain(data.map(function(d) {
             return d.continent;
         }));
+
+    //Set axis without ticks
+    var xAxis = d3.axisBottom()
+    .tickFormat(d3.format("d"))
+    .ticks(10)
+    .scale(xScale).tickSize([]),
+        yAxis = d3.axisLeft().scale(yScale).tickSize([]);
     
-    var xAxis = d3.axisBottom().scale(xScale),
-        yAxis = d3.axisLeft().scale(yScale);
-    
-    
-    var color = d3.scaleOrdinal().domain(["North America","South America", "Europe","Asia","Australia","Africa", "All"]).range(["#7fc97f","#dbe587","#fb9a99","#80b1d3","#fdb462","#decbe4", "#9b989a"]);
 
     
     var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
     
-    //TODO: x asis not show
     svg.append("g")
-            .attr('transform', 'translate(0,' + height + ')')
+            .attr('transform', 'translate(0,' + (height - margin2.bottom) + ')')
             .attr('class', 'x axis')
             .call(xAxis);
     
-    //TODO: y axis is cut off
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis)
         .selectAll("text")
-        .attr("y", 26)
-        .attr("x",-5)
-        .attr("cx", -1000)
-        .attr("cy", -1000)
-        .attr("dy", ".85em")
         .attr("font-weight","bold");
 
-
+    //TODO: adding picture and force overlap
     var circles = svg.selectAll(".dot")
           .data(data)
         .enter().append("circle")
