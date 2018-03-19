@@ -6,7 +6,7 @@ function drawDefault() {
     
     var margin2 = {top: 10, right: 60, bottom: 20, left: 150},
     width2 = 1100 - margin2.left - margin2.right,
-    height2 = 300 - margin2.top - margin2.bottom;
+    height2 = 350 - margin2.top - margin2.bottom;
     
     //used to parse time data on "year" only
    var parseTime = d3.timeParse("%Y");
@@ -77,14 +77,19 @@ function drawDefault() {
             //yScale.domain(data.map(function(d) { return d.category; }));
 
             // adding axes is also simpler now, just translate x-axis to (0,height) and it's alread defined to be a bottom axis. 
-        var gx=svg.append('g')
-                .attr('transform', 'translate(0,' + height + ')')
-                .attr('class', 'x axis')
-                .call(xAxis);
-               
+        
+            //TODO: add scoll bar
+
+        
+    var x = svg.append('g')
+            .attr('transform', 'translate(0,' + height + ')')
+            .attr('class', 'x axis')
+            .call(xAxis);
+        
+    var zoom = d3.zoom().on("zoom",zoomed);
 
     // y-axis is translated to (0,0)
-        svg.append("g")
+    var y = svg.append("g")
         .attr("class", "y axis")
         .call(yAxis)
         .selectAll("text")
@@ -98,7 +103,7 @@ function drawDefault() {
         
 
         // Draw the x gridlines
-      svg.append("g")
+      var xgrid = svg.append("g")
         .attr("class", "grid")
         .attr("transform", "translate(0," + height + ")")
         .call(make_x_gridlines(xScale, 13)
@@ -107,7 +112,7 @@ function drawDefault() {
              )
 
         // Draw the y gridlines
-        svg.append("g")
+      var ygrid = svg.append("g")
             .attr("class", "grid")
             .call(make_y_gridlines(yScale, 11)
                  .tickSize(-width+80)
@@ -138,8 +143,12 @@ function drawDefault() {
                    .duration(500)
                    .style("opacity", 0);
           });
-        
- 
+    //TODO: the zoom not looks good  
+//    svg.call(d3.zoom()
+//            .scaleExtent([1/2, 32])
+//            .on("zoom", zoomed));
+//    
+         
      // draw legend
       var legend = svg.selectAll(".legend")
           .data(color.domain())
@@ -197,8 +206,10 @@ function drawDefault() {
           .style("text-anchor", "middle")
           .style("font-size","14px")
           .text(function(d) { return d;})
-    //ref: http://bl.ocks.org/WilliamQLiu/76ae20060e19bf42d774  
-
+          
+        
+    
+    //Clickabl legend ref: http://bl.ocks.org/WilliamQLiu/76ae20060e19bf42d774  
     var categoryMap = ["Art", "Literature", "Medicine", "Chemistry", "Physics", "Math",  "Computer", "Peace & Leadership", "Pioneers"];
         
     svg.on("click", function() {
@@ -223,129 +234,28 @@ function drawDefault() {
         drawCell(margin2, color, decadeLower, decadeUpper, cellData);
         
         });
- 
-    });
-    
-    
-}
-
-//Clear cell svg
-function clearCell() {
-    var svg = document.getElementById("cell");
-    if (svg.childNodes[0])
-        svg.removeChild(svg.childNodes[0]);
-}
-
-//Render cellData and draw sub svg
-function drawCell(margin2, color, yearLower, yearUpper, data) {
-    console.log("cellData", data);
-    
-   var height = d3.select("#cell").attr("height"),
-       width = d3.select("#cell").attr("width");
-    
-    var svg = d3.select("#cell").append('g')
-        .attr('transform', 'translate(' + margin2.left + ',' + margin2.top + ')');
-
-    var xScale = 
-        d3.scaleLinear().range([0, width-100])
-        .domain([yearLower-1, yearUpper]).nice();
-    
-  
-    //Set yscale with padding
-//    var yScale = 
-//        d3.scaleBand().range([height, 0]).padding(1);
-//    yScale.domain(data.map(function(d) {
-//            return d.continent;
-//        }));
-
-    //Set axis without ticks
-    var xAxis = d3.axisBottom()
-    .tickFormat(d3.format("d"))
-    .ticks(10)
-    .scale(xScale).tickSize([]);
-    
-//    yAxis = d3.axisLeft().scale(yScale).tickSize([]);
-    
-
-    
-    var tooltip = d3.select("body").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0);
-    
-    svg.append("g")
-            .attr('transform', 'translate(0,' + (height - margin2.bottom) + ')')
-            .attr('class', 'x axis')
-            .call(xAxis);
-    
-//    svg.append("g")
-//        .attr("class", "y axis")
-//        .call(yAxis)
-//        .selectAll("text")
-//        .attr("font-weight","bold");
-//    
-    //Force layout ref: http://bl.ocks.org/bimannie/cf443db3222b747d3155f8797abc0593
-    var nodes = data.map(function(node, index) {
-        return {
-                index: index,
-                name: node.name,
-                year: node.year2,
-                rationale: node.Rationale,
-                country: node.country,
-                continent: node.continent,
-                award: node.award,
-                x: xScale(node.year2),
-                fx: xScale(node.year2),       
-            };                 
-        });
-    
-    
-    var simulation = d3.forceSimulation(nodes)
-        .force("x", d3.forceX(function(d) { return xScale(d.year); }).strength(1))
-        .force("y", d3.forceY(150))
-        .force("collide", d3.forceCollide().radius(25))
-        .force("manyBody", d3.forceManyBody().strength(-10))
-        .stop();
-    
-    for (var i = 0; i < 15; ++i) simulation.tick();
-    
-    
-    //TODO: try to add sort by continent
-    var circle = svg.selectAll(".dot")
-        .data(nodes)
-        .enter().append("circle")
-        .attr("class", "dot")
-        .style("fill", function(d) { return color(d.continent); })
-        .attr("cx", function(d) { return d.x} )
-        .attr("cy", function(d) { return d.y} )
-        .attr("r", 20)
-        .style("opacity", 0.6)
-//            .sort(function(a, b) { return b.dy - a.dy; })
-
-        .on("mouseover", function(d) {
-                d3.select(this)
-                  tooltip.transition()
-                       .duration(200)
-                       .attr('r',10)
-                       .style("opacity", .5);
-                  tooltip.html(d.name+"<br/>"+"Year: "+ d.year+"<br/>"+"Country: "+d.country+"<br/>"+"Award: "+d.award+" - "+d.cat+"<br/>"+"________________"+"<br/>"+d.rationale) 
-                       .style("left", (d3.event.pageX - 5.5) + "px")
-                       .style("top", (d3.event.pageY + 1) + "px");
-              })
-        .on("mouseout", function(d) {
-            tooltip.transition()
-                    .duration(500)
-                    .style("opacity", 0);
-              });
-
-    
-    //TODO: Append image to circle not showing image
-    circle.append("image")
-      .attr("xlink:href", function (d){ return "images/" + d.name + ".jpg"; })
-      .attr("class", "circle-image")
-      .attr("x", 0)
-      .attr("y", 0)
-      .attr("width", 20)
-      .attr("height", 20);         
+        
+    function zoomed() {
+   //Create new scale based on event
+        var new_xScale = d3.event.transform.rescaleX(xScale)
+        var new_yScale = d3.event.transform.rescaleX(yScale)
+        
+        
+        //Update axes
+        x.call(xAxis.scale(new_xScale));
+        xgrid.call(make_x_gridlines(new_xScale, 13).tickFormat(""));
+        ygrid.call(make_y_gridlines(new_yScale, 11).tickFormat(""));
+        
+        //Update scatter plot and associated text
+        svg.selectAll(".dot")
+            .attr("transform", d3.event.transform);
+        svg.selectAll(".text")
+            .attr("transform", d3.event.transform);
+        svg.selectAll(".grid")
+            .attr("transform",
+            d3.event.transform);
+        }     
+    });  
 }
 
 
