@@ -340,7 +340,7 @@ function drawCell(margin2, color, yearLower, yearUpper, data) {
     
     //TODO: Append image to circle not showing image
     circle.append("image")
-      .attr("xlink:href", "images/Strawberry.jpg")
+      .attr("xlink:href", function (d){ return "images/" + d.name + ".jpg"; })
       .attr("class", "circle-image")
       .attr("x", 0)
       .attr("y", 0)
