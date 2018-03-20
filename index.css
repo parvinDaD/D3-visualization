@@ -71,6 +71,12 @@ body {
   shape-rendering: crispEdges;
 }
 
+  .tick text{
+    font-size: 12px;
+    backface-visibility: visible;
+    background-color:aquamarine;
+  }
+
 
 .dot {
   stroke: None;
@@ -125,10 +131,13 @@ body {
 
 /*Set style for grid*/
 .grid line {
-   stroke: lightgrey;
+   stroke: darkgrey;
    stroke-opacity: 0.7;
-   shape-rendering: crispEdges;
+   stroke-dasharray: 5,5;
+   
 }
 .grid path {
-   stroke-width: 0;
+   stroke-width: 0.5;
+  
+   
 }

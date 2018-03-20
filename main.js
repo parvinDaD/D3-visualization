@@ -6,7 +6,7 @@ function drawDefault() {
     
     var margin2 = {top: 10, right: 60, bottom: 20, left: 150},
     width2 = 1100 - margin2.left - margin2.right,
-    height2 = 350 - margin2.top - margin2.bottom;
+    height2 = 340 - margin2.top - margin2.bottom;
     
     //used to parse time data on "year" only
    var parseTime = d3.timeParse("%Y");
@@ -28,7 +28,7 @@ function drawDefault() {
     var circles;
 
     //#fbb4ae    
-    var xAxis = d3.axisBottom().scale(xScale);
+    var xAxis = d3.axisBottom().scale(xScale).ticks(13).tickSize(0,9,0);
     var yAxis = d3.axisLeft().scale(yScale).ticks(11).tickSize(0,9,0).tickFormat( function(d) { return mapfunc(d);});
 
     //.tickFormat(function(d) { return mapping[d.category2]; });
@@ -76,16 +76,14 @@ function drawDefault() {
     //		})).nice();
             //yScale.domain(data.map(function(d) { return d.category; }));
 
-            // adding axes is also simpler now, just translate x-axis to (0,height) and it's alread defined to be a bottom axis. 
-        
-            //TODO: add scoll bar
+           
 
         
     var x = svg.append('g')
-            .attr('transform', 'translate(0,' + height + ')')
+            .attr('transform', 'translate(0,' +height  + ')')
             .attr('class', 'x axis')
             .call(xAxis);
-        
+       
     var zoom = d3.zoom().on("zoom",zoomed);
 
     // y-axis is translated to (0,0)
@@ -105,11 +103,10 @@ function drawDefault() {
         // Draw the x gridlines
       var xgrid = svg.append("g")
         .attr("class", "grid")
-        .attr("transform", "translate(0," + height + ")")
-        .call(make_x_gridlines(xScale, 13)
-             .tickSize(-height)
-             .tickFormat("")
-             )
+        .attr("transform", "translate(0," + height+ ")")
+        .call(make_x_gridlines(xScale, 13).tickSize(-height).tickFormat(""))
+
+             
 
         // Draw the y gridlines
       var ygrid = svg.append("g")
@@ -262,7 +259,8 @@ function drawDefault() {
 // Gridlines in x axis funcitons
 function make_x_gridlines(xScale, ticks) {  
     return d3.axisBottom(xScale)
-         .ticks(ticks)
+    .ticks(ticks)
+         
 }
 
 

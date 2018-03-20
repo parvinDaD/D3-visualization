@@ -35,7 +35,7 @@ function drawCell(margin2, color, yearLower, yearUpper, data) {
     
     
     svg.append("g")
-        .attr('transform', 'translate(0,' + (height - margin2.bottom) + ')')
+        .attr('transform', 'translate(0,' + (height - margin2.bottom-5) + ')')
         .attr('class', 'x axis')
         .call(xAxis);
 
