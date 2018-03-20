@@ -5,7 +5,7 @@ function drawDefault() {
     
     
     var margin2 = {top: 20, right: 20, bottom: 20, left: 150},
-    width2 = 1000 - margin2.left - margin2.right,
+    width2 = 1100 - margin2.left - margin2.right,
     height2 = 500 - margin2.top - margin2.bottom;
     
     //used to parse time data on "year" only
