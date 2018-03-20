@@ -4,9 +4,9 @@ function drawDefault() {
     height = 600 - margin.top - margin.bottom;
     
     
-    var margin2 = {top: 10, right: 60, bottom: 20, left: 150},
-    width2 = 1100 - margin2.left - margin2.right,
-    height2 = 340 - margin2.top - margin2.bottom;
+    var margin2 = {top: 20, right: 20, bottom: 20, left: 150},
+    width2 = 1000 - margin2.left - margin2.right,
+    height2 = 500 - margin2.top - margin2.bottom;
     
     //used to parse time data on "year" only
    var parseTime = d3.timeParse("%Y");
@@ -40,11 +40,16 @@ function drawDefault() {
         .append('g')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
     //For draw cell
-    var svg2 = d3.select('body')
+//    var svg2 = d3.select('body')
+//        .append('svg')
+//        .attr("id", 'cell')
+//        .attr('width', width2 + margin2.left + margin2.right)
+//        .attr('height', height2 + margin2.top + margin2.bottom);
+         var svg2 = d3.select('body')
         .append('svg')
         .attr("id", 'cell')
         .attr('width', width2 + margin2.left + margin2.right)
-        .attr('height', height2 + margin2.top + margin2.bottom);
+        .attr('height', height2 + margin2.bottom + margin2.top);
         
 
     var tooltip = d3.select("body").append("div")
