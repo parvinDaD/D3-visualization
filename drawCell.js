@@ -96,7 +96,7 @@ function drawCell(margin2, color, yearLower, yearUpper, data) {
             tooltip.transition()
                 .duration(200)
                 .attr('r',10)
-                .style("opacity", .6);
+                .style("opacity", .8);
             tooltip.html(d.name+"<br/>"+"Year: "+ d.year+"<br/>"+"Country: "+d.country+"<br/>"+"Award: "+d.award+" - "+d.category+"<br/>"+"________________"+"<br/>"+d.rationale) 
                 .style("left", (d3.event.pageX - 5.5) + "px")
                 .style("top", (d3.event.pageY + 1) + "px");

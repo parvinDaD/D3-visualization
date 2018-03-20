@@ -158,7 +158,7 @@ function drawDefault() {
           .attr("class", "legend")
           .attr("id", function(d, i ){
               return color.domain()[i];}) // assign ID to each legend
-          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
+          .attr("transform", function(d, i) { return "translate(0," + i * 27 + ")"; })
       ;
     
     
@@ -168,10 +168,10 @@ function drawDefault() {
           .attr("x", width - 50)
           .attr("rx",5)
           .attr("ry",5)
-          .attr("width", 95)
-          .attr("height", 19)
+          .attr("width", 110)
+          .attr("height", 25)
+         
           .style("fill", color);
-      
     //Adding click event
       legend.on("click", function(type) {
         
@@ -202,11 +202,12 @@ function drawDefault() {
       // draw legend text
       legend.append("text")
 
-          .attr("x", width - 2)
-          .attr("y", 3)
+          .attr("x", width+3)
+          .attr("y", 7)
           .attr("dy", "0.65em")
           .style("text-anchor", "middle")
-          .style("font-size","14px")
+          .style("font-size","16px")
+          .style("font_family","Arial")
           .text(function(d) { return d;})
           
         
