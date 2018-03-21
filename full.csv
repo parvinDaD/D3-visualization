@@ -47,17 +47,17 @@ year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
 1938,1935,Pearl S. Buck,United States,Literature,2,1.5,"""For her rich and truly epic descriptions of peasant life in China and for her biographical masterpieces""",Nobel,North America,,,
 1945,1945,Gabriela Mistral,Chile,Literature,2,1.5,"""For her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world""",Nobel,South America,,,
 1966,1965,Nelly Sachs,Sweden,Literature,2,1.5,"""For her outstanding lyrical and dramatic writing, which interprets Israel's destiny with touching strength""",Nobel,Europe,,,
-1991,1994,Nadine Gordimer,South Africa,Literature,2,1.4,"""Who through her magnificent epic writing has - in the words of Alfred Nobel - been of very great benefit to humanity""",Nobel,Africa,0,0,0
-1993,1995,Toni Morrison,United States,Literature,2,1.4,"""Who in novels characterized by visionary force and poetic import, gives life to an essential aspect of American reality""",Nobel,North America,1,1,0
-1996,1994,Wis awa Szymborska,Poland,Literature,2,1.6,"""For poetry that with ironic precision allows the historical and biological context to come to light in fragments of human reality""",Nobel,Europe,2,0,1
-2004,2004,Elfriede Jelinek,Austria,Literature,2,1.4,"""For her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society's clichés and their subjugating power""",Nobel,Europe,0,0,0
-2007,2005,Doris Lessing,United Kingdom,Literature,2,1.4,"""That epicist of the female experience, who with scepticism, fire and visionary power has subjected a divided civilisation to scrutiny""",Nobel,Europe,1,1,0
-2009,2004,Herta Muller,Germany,Literature,2,1.6,"""Who, with the concentration of poetry and the frankness of prose, depicts the landscape of the dispossessed""",Nobel,Europe,2,0,1
+1991,1994,Nadine Gordimer,South Africa,Literature,2,1.5,"""Who through her magnificent epic writing has - in the words of Alfred Nobel - been of very great benefit to humanity""",Nobel,Africa,0,0,0
+1993,1995,Toni Morrison,United States,Literature,2,1.5,"""Who in novels characterized by visionary force and poetic import, gives life to an essential aspect of American reality""",Nobel,North America,1,1,0
+1996,1996,Wis awa Szymborska,Poland,Literature,2,1.5,"""For poetry that with ironic precision allows the historical and biological context to come to light in fragments of human reality""",Nobel,Europe,2,2,0
+2004,2004,Elfriede Jelinek,Austria,Literature,2,1.5,"""For her musical flow of voices and counter-voices in novels and plays that with extraordinary linguistic zeal reveal the absurdity of society's clichés and their subjugating power""",Nobel,Europe,0,0,0
+2007,2005,Doris Lessing,United Kingdom,Literature,2,1.5,"""That epicist of the female experience, who with scepticism, fire and visionary power has subjected a divided civilisation to scrutiny""",Nobel,Europe,1,1,0
+2009,2006,Herta Muller,Germany,Literature,2,1.5,"""Who, with the concentration of poetry and the frankness of prose, depicts the landscape of the dispossessed""",Nobel,Europe,2,2,0
 2012,2013,Erika Mitchell,England,Literature,2,1.5,"""She wrote the bestselling erotic romance trilogy Fifty Shades of Grey, Fifty Shades Darker, and Fifty Shades Freed.""",Times 100People,Europe,0,0,0
 2015,2014,Svetlana Alexievich,Belarus,Literature,2,1.5,"""For her polyphonic writings, a monument to suffering and courage in our time""",Nobel,Europe,1,1,0
 2011,2015,Jennifer Egan,United States,Literature,2,1.5,"""Is an American novelist and short story writer who lives in Clinton Hill, Brooklyn. Egan's novel A Visit from the Goon Squad won the 2011 Pulitzer Prize for Fiction.""",Times 100People,North America,2,2,0
 2012,2016,Ann Patchett,United States,Literature,2,1.5,"""She received the 2002 PEN/Faulkner Award and the Orange Prize for Fiction in the same year, for her novel Bel Canto.""",Times 100People,North America,3,3,0
-2013,2013,Alice Munro,Canada,Literature,2,1.7,"""Master of the contemporary short story""",Nobel,North America,4,0,1
+2013,2017,Alice Munro,Canada,Literature,2,1.5,"""Master of the contemporary short story""",Nobel,North America,4,4,0
 1947,1945,Gerty Theresa Cori,United States,Medicine,3,2.5,"""For their discovery of the course of the catalytic conversion of glycogen""",Nobel,North America,,,
 1977,1975,Rosalyn Sussman Yalow,United States,Medicine,3,2.5,"""For the development of radioimmunoassaysof peptide hormones""",Nobel,North America,,,
 1983,1984,Barbara McClintock,United States,Medicine,3,2.5,"""For her discovery of mobile genetic elements""",Nobel,Europe,0,0,0
@@ -254,9 +254,9 @@ year,yearMap,name,country,cat,category2,catMap,Rationale,award,continent,,,
 1905,1905,Bertha von Suttner,Austria Hungary,Peace & Leadership,8,7.5,"Honorary President of Permanent International Peace Bureau, Bern, Switzerland; Author of Lay Down Your Arms.",Nobel,Europe,,,
 1931,1935,Jane Addams,United States,Peace & Leadership,8,7.5,"Sociologist; International President, Women's International League for Peace and Freedom.",Nobel,North America,,,
 1946,1945,Emily Greene Balch,United States,Peace & Leadership,8,7.5,"Formerly Professor of History and Sociology; Honorary International President, Women's International League for Peace and Freedom.",Nobel,North America,,,
-1976,1974,Betty Williams,United Kingdom,Peace & Leadership,8,7.4,Peace Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,0,0,0
-1976,1975,Mairead Maguire,United Kingdom,Peace & Leadership,8,7.4,Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,1,1,0
-1979,1976,Mother Teresa,India,Peace & Leadership,8,7.4,"Leader of �Missionaries of charity, Calcutta.",Nobel,Asia,2,2,0
+1976,1974,Betty Williams,United Kingdom,Peace & Leadership,8,7.5,Peace Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,0,0,0
+1976,1975,Mairead Maguire,United Kingdom,Peace & Leadership,8,7.5,Founder of the Northern Ireland Peace Movement (later renamed Community of Peace People),Nobel,Europe,1,1,0
+1979,1976,Mother Teresa,India,Peace & Leadership,8,7.5,"Leader of Missionaries of charity, Calcutta.",Nobel,Asia,2,2,0
 1982,1985,Alva Myrdal,Sweden,Peace & Leadership,8,7.5,Former Cabinet Minister; Diplomat; Writer.,Nobel,Europe,,0,0
 1991,1994,Aung San Suu Kyi,Burma,Peace & Leadership,8,7.5,"""For her non-violent struggle for democracy and human rights""",Nobel,Asia,0,0,0
 1992,1995,Rigoberta Mench,Guatemala,Peace & Leadership,8,7.5,"""In recognition of her work for social justice and ethno-cultural reconciliation based on respect for the rights of indigenous peoples""",Nobel,North America,1,1,0
