@@ -23,7 +23,7 @@ function drawDefault() {
     var yMap = function(d) { return yScale(yValue(d));};
 
 
-    var color = d3.scaleOrdinal().domain(["All","North America","South America", "Europe","Africa","Asia","Australia" ]).range(["#9b989a","#beaed4","#ffd92f","#a6d854","#e5c480","#fb9a99","#80b1d3"]);
+    var color = d3.scaleOrdinal().domain(["All","North America","South America", "Europe","Africa","Asia","Australia" ]).range(["#9b989a","#beaed4","#fb9a99","#a6d854","#80b1d3","#ffd92f","#fdb462"]);
     
     var circles;
 
@@ -206,8 +206,8 @@ function drawDefault() {
           .attr("y", 7)
           .attr("dy", "0.65em")
           .style("text-anchor", "middle")
-          .style("font-size","16px")
-          .style("font_family","Arial")
+          .style("font-size","14px")
+          .style("font-family","sans-serif")
           .text(function(d) { return d;})
           
         
